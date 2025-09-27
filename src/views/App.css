@@ -1,4 +1,8 @@
 .App {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  flex-direction: row; /* <-- Mantém Menu e Content lado a lado */
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
 }

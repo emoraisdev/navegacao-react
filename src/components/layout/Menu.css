@@ -1,6 +1,7 @@
 .Menu {
     display: flex;
     flex-basis: 230px;
+    align-self: stretch;
 
     background: linear-gradient(to top, #00b4db, #006c90);
     
